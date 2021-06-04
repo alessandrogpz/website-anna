@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Hacked;
+  src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+.navbar-container {
+  background: #222;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Hacked";
+}
+
+#nav-name {
+  background-color: #222;
+  margin: 10px;
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-button {
+  background-color: #222;
+  font-size: 20px;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+}

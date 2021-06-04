@@ -1,0 +1,57 @@
+#about-container {
+  display: flex;
+  background-color: #101317;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+  /* 
+  border: dashed;
+  border-color: white; */
+}
+
+#about-text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+  max-width: 500px;
+
+  font-family: "Anton";
+
+  justify-content: center;
+  align-items: center;
+
+  /* border: dashed;
+  border-color: white; */
+}
+
+.about-text-main {
+  color: rgb(228, 228, 228);
+  font-size: 20px;
+
+  text-align: left;
+
+  /* border-color: white;
+  border: dashed; */
+}
+
+#runes {
+  margin: 20px;
+  opacity: 0.2;
+}
+
+.single-runes {
+  height: 5%;
+  width: 5%;
+}
+
+.circle-runes {
+  height: 30%;
+  width: 30%;
+}

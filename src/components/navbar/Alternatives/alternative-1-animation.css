@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-container {
+  background: #222;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-name {
+  background-color: #222;
+  margin: 10px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+#nav-name:hover {
+  color: rgb(182, 182, 182);
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-button {
+  background-color: #222;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+/* --------------------------------------------------------------- */
+/* Links mouseover effect */
+.nav-button {
+  position: relative;
+}
+
+.nav-button::after {
+  content: "";
+  position: absolute;
+  top: 125%;
+  width: 0;
+  height: 1px;
+  background-color: rgb(182, 182, 182);
+  transition: width 0.3s ease-in-out;
+}
+
+/* Left Items */
+.nav-button.left::after {
+  left: 0;
+}
+
+/* Right Items */
+.nav-button.right::after {
+  right: 0;
+}
+
+.nav-button:hover::after {
+  width: 100%;
+}
+
+.nav-button:hover {
+  color: rgb(182, 182, 182);
+}
+/* --------------------------------------------------------------- */

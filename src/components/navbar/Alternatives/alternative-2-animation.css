@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Hacked;
+  src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+.navbar-container {
+  background: #222;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Hacked";
+}
+
+#nav-name {
+  background-color: #222;
+  margin: 10px;
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  transition: 0.5s linear;
+  position: relative;
+}
+
+/* --------------------------------------------------------------- */
+/* Name mouse over */
+
+#nav-name::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff7000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#nav-name:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#nav-name:hover {
+  color: rgb(182, 182, 182);
+}
+/* --------------------------------------------------------------- */
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-button {
+  background-color: #222;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s linear;
+  position: relative;
+}
+
+/* --------------------------------------------------------------- */
+/* Menu items mouse over */
+
+.nav-button::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  background: #ff7000;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+}
+
+.nav-button:hover {
+  color: rgb(182, 182, 182);
+}
+
+/* Left Items */
+.nav-button.left::after {
+  left: 0;
+  transform-origin: right;
+}
+
+.nav-button.left:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Right Items */
+.nav-button.right::after {
+  right: 0;
+  transform-origin: left;
+}
+
+.nav-button.right:hover::after {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+/* --------------------------------------------------------------- */
