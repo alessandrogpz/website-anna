@@ -11,8 +11,8 @@ const Navbar = () => {
         <Link className="nav-button glitch" to="/artwork" data-text="ERROR!">
           Artwork
         </Link>
-        <Link className="nav-button glitch" to="/projects" data-text="ERROR!">
-          Projects
+        <Link className="nav-button glitch" to="/video-art" data-text="ERROR!">
+          Video Art
         </Link>
       </ul>
 

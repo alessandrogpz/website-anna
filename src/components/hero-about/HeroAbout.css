@@ -40,18 +40,3 @@
   /* border-color: white;
   border: dashed; */
 }
-
-#runes {
-  margin: 20px;
-  opacity: 0.2;
-}
-
-.single-runes {
-  height: 5%;
-  width: 5%;
-}
-
-.circle-runes {
-  height: 30%;
-  width: 30%;
-}

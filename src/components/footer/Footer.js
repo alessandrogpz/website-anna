@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div id="legal">
           {" "}
-          <div className="legal-item">Copiright © 2021 by Ana Paula</div>
+          <div className="legal-item">Copiright © 2021 by Anna Paula</div>
           <div className="legal-item">
             Design by{" "}
             <a
