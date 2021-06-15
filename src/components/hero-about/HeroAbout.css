@@ -1,19 +1,27 @@
 #about-container {
   display: flex;
-  background-color: #101317;
-  height: 100vh;
+  background-color: #f0f0f0;
+  height: auto;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
+#img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 300px;
+  max-height: auto;
+  min-width: 300px;
+  min-height: auto;
+}
+
 .profile-img {
-  width: 600px;
-  height: auto;
-  object-fit: cover;
-  /* 
-  border: dashed;
-  border-color: white; */
+  margin: 30px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #about-text-container {
@@ -26,17 +34,17 @@
 
   justify-content: center;
   align-items: center;
-
-  /* border: dashed;
-  border-color: white; */
 }
 
 .about-text-main {
-  color: rgb(228, 228, 228);
+  color: #000000;
   font-size: 20px;
 
   text-align: left;
+}
 
-  /* border-color: white;
-  border: dashed; */
+@media screen and (max-width: 650px) {
+  #about-container {
+    flex-direction: column;
+  }
 }

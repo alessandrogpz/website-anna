@@ -1,16 +1,49 @@
+#contact-container {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-text-info {
+  margin: 20px;
+  font-size: 30px;
+}
+
+#socials-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.social-about {
+  margin: 10px;
+  color: #222222;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.social-about:hover {
+  color: rgb(182, 182, 182);
+}
+
+.social-about:visited {
+  text-decoration: none;
+}
+
 /* Refactor code using flex-box */
 
 .form-container {
   display: flex;
   flex-direction: column;
 
-  height: 100vh;
+  height: auto;
   width: 100%;
 
   justify-content: center;
   align-items: center;
-
-  background-color: rgb(70, 70, 70);
 }
 
 /*  inputs  */
@@ -20,7 +53,7 @@ textarea:focus ~ label,
 input:valid ~ label,
 textarea:valid ~ label {
   font-size: 0.75em;
-  color: #999;
+  color: rgb(0, 0, 0);
   top: -5px;
   -webkit-transition: all 0.225s ease;
   transition: all 0.225s ease;
@@ -49,7 +82,7 @@ textarea:valid ~ label {
 }
 
 .styled-input label {
-  color: #999;
+  color: rgb(0, 0, 0);
   padding: 1.3rem 30px 1rem 30px;
   position: absolute;
   top: 10px;
@@ -70,8 +103,8 @@ textarea {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  background-color: #2d2d2d;
-  color: white;
+  background-color: #afafaf;
+  color: black;
   border-radius: 4px;
 }
 

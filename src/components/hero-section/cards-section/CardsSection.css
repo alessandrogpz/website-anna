@@ -1,5 +1,12 @@
 .cards-gallery {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+}
+
+.artgallery-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
 }

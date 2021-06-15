@@ -3,7 +3,40 @@ import "./HeroContact.css";
 
 function HeroContact() {
   return (
-    <div>
+    <div id="contact-container">
+      <div className="contact-text-info">
+        <p>Finde me on</p>
+      </div>
+
+      <div id="socials-about">
+        <a
+          className="social-about"
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fab fa-twitter"></i>
+        </a>
+        <a
+          className="social-about"
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fab fa-instagram"></i>
+        </a>
+        <a
+          className="social-about"
+          href="https://vimeo.com//"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fab fa-vimeo-v"></i>
+        </a>
+      </div>
+      <div className="contact-text-info">
+        <p>Or contact me here</p>
+      </div>
       <div class="form-container">
         <div class="row input-container">
           <div class="col-xs-12">

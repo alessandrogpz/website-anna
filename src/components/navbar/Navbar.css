@@ -16,6 +16,10 @@
   align-items: center;
   justify-content: space-between;
   font-family: "Hacked";
+
+  /* position: fixed;
+  width: 100%;
+  box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.2); */
 }
 
 #nav-name {

@@ -1,12 +1,14 @@
 import React from "react";
 import "./HeroAbout.css";
 
-import AboutImage from "../../website-arts/src-mat/profile/profile-bio-2.png";
+import AboutImage from "../../website-arts/src-mat/profile/profile-bio-0.png";
 
 const HeroAbout = () => {
   return (
     <div id="about-container">
-      <img className="profile-img" src={AboutImage} alt="" />
+      <div id="img-box">
+        <img className="profile-img" src={AboutImage} alt="" />
+      </div>
       <div id="about-text-container">
         <p className="about-text-main">
           I'm a visual artist from Brazil now based in Berlin, Germany.

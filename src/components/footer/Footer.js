@@ -12,7 +12,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
           <a
             className="social"
@@ -20,11 +20,18 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            className="social"
+            href="https://vimeo.com//"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-vimeo-v"></i>
           </a>
         </div>
         <div id="legal">
-          {" "}
           <div className="legal-item">Copiright © 2021 by Anna Paula</div>
           <div className="legal-item">
             Design by{" "}
