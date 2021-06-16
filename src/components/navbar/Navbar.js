@@ -1,40 +1,42 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
-import "./nav-name-hover.css";
-import "./nav-button-hover.css";
 
-const Navbar = () => {
-  return (
-    <div className="navbar-container">
-      <ul id="buttons-left" className="nav-menu">
-        <Link className="nav-button glitch" to="/artwork" data-text="ERROR!">
-          Artwork
-        </Link>
-        <Link className="nav-button glitch" to="/video-art" data-text="ERROR!">
-          Video Art
-        </Link>
-      </ul>
+class Navbar extends Component {
+  state = { clicked: false };
 
-      <Link
-        id="nav-name"
-        className="nav-button-name glitch"
-        to="/"
-        data-text="ERROR!"
-      >
-        Anna Matos
-      </Link>
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
 
-      <ul id="buttons-right" className="nav-menu">
-        <Link className="nav-button glitch" to="/about" data-text="ERROR!">
-          About
-        </Link>
-        <Link className="nav-button glitch" to="/contact" data-text="ERROR!">
-          Contact
-        </Link>
-      </ul>
-    </div>
-  );
-};
+  render() {
+    return (
+      <nav className="NavbarItems">
+        <h1 className="navbar-logo">
+          <Link className="nav-links" to="/">
+            Anna Matos
+          </Link>
+        </h1>
+        <div className="menu-icon" onClick={this.handleClick}>
+          <i
+            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+          ></i>
+        </div>
+        <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+          {MenuItems.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link className={item.cName} to={item.url}>
+                  {item.title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+    );
+  }
+}
 
 export default Navbar;

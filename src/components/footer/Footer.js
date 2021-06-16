@@ -32,9 +32,9 @@ const Footer = () => {
           </a>
         </div>
         <div id="legal">
-          <div className="legal-item">Copiright © 2021 by Anna Paula</div>
+          <div className="legal-item">Copiright © 2021 by Anna Matos</div>
           <div className="legal-item">
-            Design by{" "}
+            Website design by{" "}
             <a
               href="https://alessandroperez.com/"
               target="_blank"

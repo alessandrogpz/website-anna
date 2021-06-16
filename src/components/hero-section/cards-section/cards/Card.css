@@ -6,15 +6,19 @@
 .img {
   display: flex;
   max-width: 100%;
-  max-height: 550px;
-  box-shadow: 5px 5px 5px rgb(182, 182, 182);
+  max-height: 450px;
+
+  min-width: 120px;
+
+  box-shadow: 3px 3px 5px rgb(182, 182, 182);
 }
 
 #img-text {
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
 
   text-align: left;
-  margin-left: 20px;
 }
 
 .img:hover {

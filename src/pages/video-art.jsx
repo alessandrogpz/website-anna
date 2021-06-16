@@ -5,14 +5,14 @@ import Navbar from "../components/navbar/Navbar";
 
 import { Link } from "react-router-dom";
 
-function Projects() {
+function VideoArt() {
   return (
     <div>
       <Navbar />
-      <h1>Projects</h1>
+      <h1>Video Art</h1>
       <Footer />
     </div>
   );
 }
 
-export default Projects;
+export default VideoArt;

@@ -5,7 +5,7 @@ function HeroContact() {
   return (
     <div id="contact-container">
       <div className="contact-text-info">
-        <p>Finde me on</p>
+        <p>Find me on</p>
       </div>
 
       <div id="socials-about">

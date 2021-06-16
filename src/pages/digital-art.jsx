@@ -5,14 +5,14 @@ import Navbar from "../components/navbar/Navbar";
 
 import { Link } from "react-router-dom";
 
-function Artwork() {
+function DigitalArt() {
   return (
     <div>
       <Navbar />
-      <h1>Artwork</h1>
+      <h1>Digital Art</h1>
       <Footer />
     </div>
   );
 }
 
-export default Artwork;
+export default DigitalArt;

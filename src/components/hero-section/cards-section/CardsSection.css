@@ -1,12 +1,18 @@
-.cards-gallery {
+.artgallery-section-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding: 50px;
 }
 
 .artgallery-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .artgallery-section {
+    flex-direction: column;
+  }
 }

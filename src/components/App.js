@@ -3,8 +3,8 @@ import "./App.css";
 
 // Pages
 import MainPage from "../pages";
-import Artwork from "../pages/artwork";
-import Projects from "../pages/video-art";
+import DigitalArt from "../pages/digital-art";
+import VideoArt from "../pages/video-art";
 import About from "../pages/about";
 import Contact from "../pages/contact";
 import NotFoundPage from "../pages/404/404";
@@ -22,8 +22,8 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path="/" component={MainPage} />
-        <Route exact path="/artwork" component={Artwork} />
-        <Route exact path="/video-art" component={Projects} />
+        <Route exact path="/digital-art" component={DigitalArt} />
+        <Route exact path="/video-art" component={VideoArt} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
 
