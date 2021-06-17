@@ -8,7 +8,7 @@ const Footer = () => {
         <div id="socials">
           <a
             className="social"
-            href="https://twitter.com/"
+            href="https://twitter.com/annalogias"
             target="_blank"
             rel="noreferrer"
           >
@@ -16,7 +16,7 @@ const Footer = () => {
           </a>
           <a
             className="social"
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/annalogias/"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,7 +24,7 @@ const Footer = () => {
           </a>
           <a
             className="social"
-            href="https://vimeo.com//"
+            href="https://vimeo.com/annapaulamatos"
             target="_blank"
             rel="noreferrer"
           >

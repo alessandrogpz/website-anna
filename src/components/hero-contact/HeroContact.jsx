@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./HeroContact.css";
 
 function HeroContact() {
@@ -11,7 +12,7 @@ function HeroContact() {
       <div id="socials-about">
         <a
           className="social-about"
-          href="https://twitter.com/"
+          href="https://twitter.com/annalogias"
           target="_blank"
           rel="noreferrer"
         >
@@ -19,7 +20,7 @@ function HeroContact() {
         </a>
         <a
           className="social-about"
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/annalogias/"
           target="_blank"
           rel="noreferrer"
         >
@@ -27,7 +28,7 @@ function HeroContact() {
         </a>
         <a
           className="social-about"
-          href="https://vimeo.com//"
+          href="https://vimeo.com/annapaulamatos"
           target="_blank"
           rel="noreferrer"
         >
@@ -36,37 +37,6 @@ function HeroContact() {
       </div>
       <div className="contact-text-info">
         <p>Or contact me here</p>
-      </div>
-      <div class="form-container">
-        <div class="row input-container">
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <input type="text" required />
-              <label>Name</label>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="styled-input right">
-              <input type="text" required />
-              <label>Subject</label>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="styled-input left">
-              <input type="text" required />
-              <label>Email</label>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <textarea required></textarea>
-              <label>Message</label>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="btn-lrg submit-btn">Submit</div>
-          </div>
-        </div>
       </div>
     </div>
   );

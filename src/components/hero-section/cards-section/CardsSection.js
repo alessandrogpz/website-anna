@@ -66,6 +66,10 @@ import Image_43 from "../../../website-arts/src-mat/gifs/002.gif";
 import Image_44 from "../../../website-arts/src-mat/gifs/003.gif";
 import Image_45 from "../../../website-arts/src-mat/gifs/004.gif";
 
+import Image_50 from "../../../website-arts/src-mat/gifs/005.gif";
+import Image_51 from "../../../website-arts/src-mat/gifs/006.gif";
+import Image_52 from "../../../website-arts/src-mat/gifs/007.gif";
+
 const image_1_title = "Human Configuration,";
 const image_1_text = "Digital painting and photo manipulation, 2020.";
 
@@ -246,10 +250,15 @@ function CardsSection() {
         <div className="artgallery-section">
           <CardNoText src={Image_42} />
           <CardNoText src={Image_43} />
+          <CardNoText src={Image_51} />
         </div>
         <div className="artgallery-section">
           <CardNoText src={Image_44} />
           <CardNoText src={Image_45} />
+        </div>
+        <div className="artgallery-section">
+          <CardNoText src={Image_50} />
+          <CardNoText src={Image_52} />
         </div>
       </div>
     </div>
