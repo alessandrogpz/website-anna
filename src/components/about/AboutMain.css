@@ -55,4 +55,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  #about-text-container {
+    padding-top: 20px;
+  }
 }

@@ -1,9 +1,9 @@
 export const MenuItems = [
-  {
-    title: "Digital Art",
-    url: "/digital-art",
-    cName: "nav-links",
-  },
+  // {
+  //   title: "Digital Art",
+  //   url: "/digital-art",
+  //   cName: "nav-links",
+  // },
   {
     title: "Video Art",
     url: "/video-art",
