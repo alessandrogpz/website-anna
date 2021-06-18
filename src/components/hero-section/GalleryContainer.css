@@ -1,0 +1,13 @@
+.hero-container {
+  background-color: #f0f0f0;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

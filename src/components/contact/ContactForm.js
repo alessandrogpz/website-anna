@@ -26,7 +26,7 @@ export default function ContactUs() {
 
   return (
     <div>
-      <form onSubmit={sendEmail} class="form-container">
+      <form onSubmit={sendEmail} className="form-container">
         <div className="row input-container">
           <div className="col-xs-12">
             <div className="styled-input wide">

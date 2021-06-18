@@ -1,11 +1,11 @@
 import React from "react";
-import "./HeroAbout.css";
+import "./AboutMain.css";
 
 import AboutImage from "../../website-arts/src-mat/profile/profile-bio-0.png";
 
-const HeroAbout = () => {
+const AboutMain = () => {
   return (
-    <div id="about container">
+    <div id="about-container">
       <div id="about-hero">
         <div id="img-box">
           <img className="profile-img" src={AboutImage} alt="" />
@@ -43,4 +43,4 @@ const HeroAbout = () => {
   );
 };
 
-export default HeroAbout;
+export default AboutMain;

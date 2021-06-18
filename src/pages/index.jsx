@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "../components/hero-section/HeroSection";
+import GalleryContainer from "../components/hero-section/GalleryContainer";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import ScrollToTop from "../components/scroll-to-top-button/ScrollTopButton";
@@ -10,7 +10,7 @@ const MainPage = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+      <GalleryContainer />
       <Footer />
     </div>
   );

@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./HeroContact.css";
+import "./ContactInfo.css";
 
-function HeroContact() {
+function ContactInfo() {
   return (
     <div id="contact-container">
       <div className="contact-text-info">
@@ -42,4 +42,4 @@ function HeroContact() {
   );
 }
 
-export default HeroContact;
+export default ContactInfo;

@@ -1,8 +1,8 @@
 import React from "react";
-import "./HeroVideoArt.css";
+import "./VideoArtMain.css";
 import { VideoItems } from "./VideoItems";
 
-function HeroVideoArt() {
+function VideoArtMain() {
   return (
     <div id="all-videos-container">
       {VideoItems.map((item, index) => {
@@ -24,4 +24,4 @@ function HeroVideoArt() {
   );
 }
 
-export default HeroVideoArt;
+export default VideoArtMain;

@@ -1,7 +1,6 @@
 import React from "react";
-
-import HeroContact from "../components/hero-contact/HeroContact";
-import Form from "../components/hero-contact/contact-form/ContactForm";
+import ContactInfo from "../components/contact/ContactInfo";
+import Form from "../components/contact/ContactForm";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 
@@ -11,7 +10,7 @@ function Contact() {
   return (
     <div>
       <Navbar />
-      <HeroContact />
+      <ContactInfo />
       <Form />
       <Footer />
     </div>

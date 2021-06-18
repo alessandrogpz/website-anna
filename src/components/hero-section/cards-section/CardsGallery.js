@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./cards/Card";
 import CardNoText from "./cards/CardNoText";
-import "./CardsSection.css";
+import "./CardsGallery.css";
 
 import Image_1 from "../../../website-arts/src-mat/index/46.png";
 import Image_2 from "../../../website-arts/src-mat/index/21.png";
@@ -160,7 +160,7 @@ const image_29_text = "Digital collage, 2021.";
 const image_30_title = "Acromatopsia,";
 const image_30_text = "Fractals, Digital Processing, 2020.";
 
-function CardsSection() {
+function CardsGallery() {
   return (
     <div className="artgallery-container">
       <div id="section-1" className="artgallery-section-container">
@@ -265,4 +265,4 @@ function CardsSection() {
   );
 }
 
-export default CardsSection;
+export default CardsGallery;
