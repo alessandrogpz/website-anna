@@ -157,7 +157,7 @@ const image_28_text = "Fractals, Digital Collage, 2020.";
 const image_29_title = "Eletric Body,";
 const image_29_text = "Digital collage, 2021.";
 
-const image_30_title = "Acromatopsia,";
+const image_30_title = "Series Acromatopsia,";
 const image_30_text = "Fractals, Digital Processing, 2020.";
 
 function CardsGallery() {
@@ -221,7 +221,16 @@ function CardsGallery() {
         </div>
         <div className="artgallery-section">
           <CardNoText src={Image_48} />
-          <Card title={image_30_title} text={image_30_text} src={Image_49} />
+          <CardNoText src={Image_49} />
+        </div>
+        <div className="artgallery-section spacing-fix-latter">
+          <p>
+            <b>
+              <i>{image_30_title}</i>
+            </b>
+            <br />
+            {image_30_text}
+          </p>
         </div>
       </div>
       <div id="section-3" className="artgallery-section-container">
