@@ -39,6 +39,10 @@ li {
   padding: 8px;
 }
 
+.name {
+  font-weight: 300;
+}
+
 .nav-links:hover {
   color: #9b9b9b;
   transition: all 0.2s ease-out;
@@ -50,7 +54,6 @@ li {
 
 .menu-icon {
   display: none;
-  padding-top: 3px;
 }
 
 @media screen and (max-width: 768px) {

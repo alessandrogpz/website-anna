@@ -14,7 +14,7 @@ class Navbar extends Component {
     return (
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
-          <Link className="nav-links" to="/">
+          <Link className="nav-links name" to="/">
             Anna Matos
           </Link>
         </h1>
