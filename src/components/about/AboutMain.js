@@ -12,14 +12,11 @@ const AboutMain = () => {
         </div>
         <div id="about-text-container">
           <p className="about-text-main">
-            I'm a visual artist from Brazil now based in Berlin, Germany.
-          </p>
-          <br />
-          <p className="about-text-main">
-            My work focuses mainly on the interactions between the organic and
-            the virtual self, and the visual representation of complex
-            psychological processes and metaphysical experiences through
-            abstraction, symbolism, surrealism, and non-linear narratives.
+            I'm a visual artist from Brazil now based in Berlin, Germany. My
+            work focuses mainly on the interactions between the organic and the
+            virtual self, and the visual representation of complex psychological
+            processes and metaphysical experiences through abstraction,
+            symbolism, surrealism, and non-linear narratives.
           </p>
           <br />
           <p className="about-text-main">
