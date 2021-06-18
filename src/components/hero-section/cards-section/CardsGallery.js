@@ -157,7 +157,7 @@ const image_28_text = "Fractals, Digital Collage, 2020.";
 const image_29_title = "Eletric Body,";
 const image_29_text = "Digital collage, 2021.";
 
-const image_30_title = "Series Acromatopsia,";
+const image_30_title = "Acromatopsia Series,";
 const image_30_text = "Fractals, Digital Processing, 2020.";
 
 function CardsGallery() {
