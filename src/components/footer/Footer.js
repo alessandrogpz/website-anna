@@ -10,7 +10,7 @@ const Footer = () => {
         <div id="legal">
           <div className="legal-item">Copiright © 2021 by Anna Matos</div>
           <div className="legal-item">
-            Website design by
+            Website design by{" "}
             <a
               href="https://alessandroperez.com/"
               target="_blank"
