@@ -1,0 +1,31 @@
+#socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 20px 0;
+}
+
+.social {
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+#contact-container .social {
+  color: #222222;
+}
+
+.social:hover {
+  color: rgb(182, 182, 182);
+  transition: all 0.2s ease-out;
+}
+
+#contact-container .social:hover {
+  color: rgb(182, 182, 182);
+  transition: all 0.2s ease-out;
+}
+
+.social:visited {
+  text-decoration: none;
+}

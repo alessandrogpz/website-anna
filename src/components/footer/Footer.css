@@ -11,29 +11,6 @@
   justify-content: center;
 }
 
-#socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  margin: 20px 0;
-}
-
-.social {
-  margin: 10px;
-  color: white;
-  font-size: 30px;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.social:hover {
-  color: rgb(182, 182, 182);
-}
-
-.social:visited {
-  text-decoration: none;
-}
-
 #legal {
   display: flex;
   flex-direction: column;
@@ -50,9 +27,9 @@
 .legal-item a {
   color: white;
   text-decoration: none;
-  transition: all 0.3s ease-out 0s;
 }
 
 .legal-item a:hover {
   color: rgb(182, 182, 182);
+  transition: all 0.2s ease-out;
 }

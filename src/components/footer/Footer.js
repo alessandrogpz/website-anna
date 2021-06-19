@@ -1,40 +1,16 @@
 import React from "react";
+import Socials from "../socials/Socials";
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <div id="footer-container">
       <div id="footer-content">
-        <div id="socials">
-          <a
-            className="social"
-            href="https://twitter.com/annalogias"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a
-            className="social"
-            href="https://www.instagram.com/annalogias/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a
-            className="social"
-            href="https://vimeo.com/annapaulamatos"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-vimeo-v"></i>
-          </a>
-        </div>
+        <Socials />
         <div id="legal">
           <div className="legal-item">Copiright © 2021 by Anna Matos</div>
           <div className="legal-item">
-            Website design by{" "}
+            Website design by
             <a
               href="https://alessandroperez.com/"
               target="_blank"

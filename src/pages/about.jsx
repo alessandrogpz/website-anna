@@ -1,6 +1,8 @@
 import React from "react";
-import Footer from "../components/footer/Footer";
+
 import Navbar from "../components/navbar/Navbar";
+import Footer from "../components/footer/Footer";
+
 import AboutMain from "../components/about/AboutMain";
 
 import { Link } from "react-router-dom";

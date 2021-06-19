@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import ScrollToTop from "./scroll-to-top/ScrollToTop";
 
 // Pages
 import MainPage from "../pages";
@@ -20,6 +21,7 @@ import {
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/digital-art" component={DigitalArt} />

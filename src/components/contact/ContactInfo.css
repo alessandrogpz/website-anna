@@ -13,28 +13,6 @@
   font-size: 30px;
 }
 
-#socials-about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-}
-
-.social-about {
-  margin: 10px;
-  color: #222222;
-  font-size: 30px;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.social-about:hover {
-  color: rgb(182, 182, 182);
-}
-
-.social-about:visited {
-  text-decoration: none;
-}
-
 @media screen and (max-width: 768px) {
   #contact-container {
     padding-top: 50px;

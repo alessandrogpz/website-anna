@@ -1,4 +1,5 @@
 import React from "react";
+
 import Error404 from "../../website-arts/src-mat/404/error-1.gif";
 import "./404.css";
 

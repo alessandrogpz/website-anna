@@ -1,6 +1,6 @@
 import React from "react";
 import "./GalleryContainer.css";
-import CardsGallery from "./cards-section/CardsGallery";
+import CardsGallery from "./cards-gallery/CardsGallery";
 
 const GalleryContainer = () => {
   return (
